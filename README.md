@@ -24,4 +24,20 @@ there are more data that oversized, please check on this site for the data[data 
 ## rastimagelist.rds
 
 **Description:** The 'rastimagelist.rds' dataset consists of a list of raster images for various spectral bands or vegetation indices. It is stored in the RDS format.
+## code File Descriptions
+1. **GWAS CODE.R**
+
+   **Description:** The `GWAS CODE.R` file contains code for performing Genome-Wide Association Studies (GWAS) on the provided dataset using the VIs as PBWAS. GWAS is a statistical method used to identify genetic variants associated with particular traits or phenotypes. The code involves data preprocessing and possibly statistical analysis of significant genetic markers. The output may include p-values, effect sizes, and significant genetic loci associated with specific traits.
+
+2. **data extraction.R**
+
+   **Description:** The `data extraction.R` file includes code for extracting and preprocessing specific data from the provided datasets. It involve filtering, cleaning, and aggregating data to create subsets or summaries required for further analysis. This script is crucial for preparing the data for subsequent tasks such as PBWAS or correlation analysis.
+
+3. **correlation of PS selection function.R**
+
+   **Description:** The `correlation of PS selection function.R` file contains code for computing PS using the GS methods.
+   
+
+For any code and data related issues, please contact aj7105@gmail.com 
+
 
